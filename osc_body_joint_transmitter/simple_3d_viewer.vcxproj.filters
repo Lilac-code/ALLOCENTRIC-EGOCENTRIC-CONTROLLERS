@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\osc">
+      <UniqueIdentifier>{bd2f446b-ea69-497c-ac2d-fa74ad23f64f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IpEndpointName.cpp">
+      <Filter>Source Files\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkingUtils.cpp">
+      <Filter>Source Files\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="OscOutboundPacketStream.cpp">
+      <Filter>Source Files\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="OscPrintReceivedElements.cpp">
+      <Filter>Source Files\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="OscReceivedElements.cpp">
+      <Filter>Source Files\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="OscTypes.cpp">
+      <Filter>Source Files\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="UdpSocket.cpp">
+      <Filter>Source Files\osc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="dnn_model_2_0.onnx" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\content\**\*.*" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\content\**\*.*" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IpEndpointName.h">
+      <Filter>Source Files\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageMappingOscPacketListener.h">
+      <Filter>Source Files\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkingUtils.h">
+      <Filter>Source Files\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="OscException.h">
+      <Filter>Source Files\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="OscHostEndianness.h">
+      <Filter>Source Files\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="OscOutboundPacketStream.h">
+      <Filter>Source Files\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="OscPacketListener.h">
+      <Filter>Source Files\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="OscPrintReceivedElements.h">
+      <Filter>Source Files\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="OscReceivedElements.h">
+      <Filter>Source Files\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="OscTypes.h">
+      <Filter>Source Files\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketListener.h">
+      <Filter>Source Files\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerListener.h">
+      <Filter>Source Files\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="UdpSocket.h">
+      <Filter>Source Files\osc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
